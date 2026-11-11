@@ -1,0 +1,21 @@
+# التبعيات
+node_modules/
+merger-service/node_modules/
+
+# بناء Next.js
+.next/
+out/
+next-env.d.ts
+
+# أسرار — لا تُرفع أبدًا
+.env
+.env.*
+!.env.example
+merger-service/.env
+merger-service/.env.*
+
+# سجلات وأدوات
+*.log
+.vercel
+.DS_Store
+tsconfig.tsbuildinfo
